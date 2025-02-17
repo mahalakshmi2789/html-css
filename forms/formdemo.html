@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.html" method="get" target="_blank">
+        <div>
+            <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="Username" value="MAHA" size="14" maxlength="5" required>
+    </div>
+        <div>
+            <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Password" required minlength="8">
+    </div>
+    <!-- <div> -->
+        <!-- <label for="yearofbirth">Year of Birth</label> -->
+        <!-- <input type="number" name="yearofbirth" id="yearofbirth" maxlength="4" min="2000" max="2025" step="5"> -->
+    <!-- </div> -->
+    <div>
+        <label for="dateofbirth">Date of Birth</label>
+        <input type="date" name="dateofbirth" id="dateofbirth">
+    </div>
+    <div>
+        <label for="email">Email Id</label>
+        <input type="email" name="email" id="email" placeholder="enter your mail id">
+    </div>
+    <!-- <form action="/search-results"> 
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="query" placeholder="Search here..." />
+        <button type="submit">Search</button>
+       </form> -->
+       <!-- <form action="/submit-url"> 
+        <label for="website">Website URL:</label>
+        <input type="url" id="website" name="website" placeholder="https://www.example.com" required />
+        <button type="submit">Submit</button>
+      </form>-->
+      <div>
+        <label for="about">About</label>
+     <textarea name="about" id="about">About me...</textarea>
+      </div>
+      <div>
+        
+        <input type="checkbox" name="smsalert" id="smsalert">
+        <label for="smsalert">SMS Alert</label>
+    </div>
+      <div>
+        
+        <input type="checkbox" name="mailalert" id="mailalert">
+        <label for="mailalert">Email Alert</label>
+    </div>
+    <div>
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label>
+    </div>
+    <div>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        </div>
+        <button type="submit">Sign up</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
