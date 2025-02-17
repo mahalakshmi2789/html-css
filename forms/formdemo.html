@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="index.html" method="get" target="_blank">
+    <form action="index.html" method="get" target="_blank" enctype="multipart/form-data">
         <div>
             <label for="username">Username</label>
         <input type="text" name="username" id="username" placeholder="Username" value="MAHA" size="14" maxlength="5" required>
@@ -37,6 +37,11 @@
         <input type="url" id="website" name="website" placeholder="https://www.example.com" required />
         <button type="submit">Submit</button>
       </form>-->
+      <!-- <input type="color"> -->
+       <div>
+        <input type="hidden" name="hidden" id="hidden" value="55">
+       </div>
+       
       <div>
         <label for="about">About</label>
      <textarea name="about" id="about">About me...</textarea>
@@ -52,14 +57,27 @@
         <label for="mailalert">Email Alert</label>
     </div>
     <div>
-    <input type="radio" name="gender" id="male">
+    <input type="radio" name="gender" id="male" value="male">
     <label for="male">Male</label>
     </div>
     <div>
-        <input type="radio" name="gender" id="female">
+        <input type="radio" name="gender" id="female" value="female">
         <label for="female">Female</label>
         </div>
-        <button type="submit">Sign up</button>
+        <div>
+            <label for="state">choose</label>
+            <select name="state" id="state" multiple>
+                <option value="tamilnadu">Tamilnadu</option>
+                <option value="kerala" label="kerala"></option>
+                <option value="pondi">pudhucherry</option>
+            </select>
+        </div>
+        <div>
+            <label for="file">upload</label>
+            <input type="file" id="file" name="file">
+        </div>
+        <!-- <button type="submit">Sign up</button> -->
+         <input type="image" src="../restuarant/images/rest1.jpg" width="40" title="submit">
         <button type="reset">Reset</button>
     </form>
 </body>
