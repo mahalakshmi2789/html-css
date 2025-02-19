@@ -1,4 +1,4 @@
-p{
+/*p{
     color:brown;
 }
 *{
@@ -22,3 +22,43 @@ h1~h3{
 h1+h2{
     color:darkslategray;
 }
+    p{
+    text-transform:none;
+}
+p+p{ 
+    text-decoration:none;
+    text-transform: none;
+}*/
+h1{
+    color:rgb(75, 76, 144);
+    background-color: rgba(100, 4, 84, 0.5);
+    font-size:2em;
+    font-stretch:ultra-condensed;
+    text-align: center;
+}
+
+  
+  body{
+    background-color:rgb(255,255,255);
+    font-family: cursive;
+    font-family: fantasy;
+    font-family: serif;
+    font-size: 16px;
+    font-size: 1em;
+  }
+  p{
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent:50px;
+    word-spacing:.5em;
+    /*text-shadow:2px 2px 2px rgb(192, 214, 192);*/    
+  }
+  p:first-letter{
+    font-size:2em;
+  }
+  a:link{
+    color:blue;
+  }
+  a:visited{
+    color:brown;
+  }
