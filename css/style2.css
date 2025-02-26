@@ -21,11 +21,16 @@ th{
     text-transform:uppercase;
     text-align: left;
     border-bottom: 2px solid black;
-}
-th,td{
     padding:10px;
+}
+td{
+    padding:10px;
+    border:1px solid blue;
 }
 .t2{
     width:500px;
     border:4px solid black;
+}
+tr:nth-child(even){
+    background-color: burlywood;
 }
