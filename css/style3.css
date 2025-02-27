@@ -1,9 +1,16 @@
 body{
-    background-image: url("/media/bg2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("/media/pexels-iriser-1379636.jpg");
+    background-size:cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .regform{
-    border:1px solid black;
-    width:300px;
+    background-color:rgba(0,0,0,0.5);
+    width:600px;
+    margin:300px auto 300px auto;
+color:white;
+}
+.regform h3{
+    color:rgb(160, 12, 54);
+    text-align: center;
+    text-decoration:underline;
 }
