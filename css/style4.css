@@ -19,10 +19,8 @@
  position:absolute;
  top: 100px;
  left:100px;
- 
-
 }
 h3{
-    /* position:relative;
-    left:300px; */
+     position:relative;
+    left:300px; 
 }
