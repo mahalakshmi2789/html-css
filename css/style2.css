@@ -1,12 +1,12 @@
 ul{
     list-style-type:circle;
-    /* list-style-image: url("/media/border.jpg"); */
+     /* list-style-image: url("/media/border.jpg");  */
 }
 ol{
     list-style-type: decimal-leading-zero;
 }
 .list{
-    list-style-position: inside;
+    list-style-position:inside;
     list-style: outside square;
 }
 li{

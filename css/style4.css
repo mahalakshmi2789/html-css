@@ -2,11 +2,12 @@
     background-color: rgb(76, 76, 206);
     width:300px;
     height:300px;
-    margin-top:30px;
+    /* margin-top:30px;
     position:relative;
     position:sticky;
     top:50px;
-    bottom:50px; 
+    bottom:50px;  */
+    float: left;
 } 
 .yellowbox{
     background-color: rgb(199, 199, 52);
@@ -14,13 +15,22 @@
     height:100px;
     /* position:relative;
  left:100px;
- bottom:200px; */
+ bottom:200px; 
   position:fixed;
  position:absolute;
  top: 100px;
- left:100px;
+ left:100px; */
 }
 h3{
      position:relative;
     left:300px; 
+}
+.col p{
+    width:30%;
+    float:right;
+
+}
+.col p:nth-child(4){
+    clear:right;
+    clear:both;
 }
